@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-07-02T10:56:43</date>
+  <millis>1593662203093</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Banner</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Banner</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Banner</property>
+</record>
+<record>
+  <date>2020-07-02T10:56:43</date>
+  <millis>1593662203129</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = WISDOMVAST - DESKTOP-LK4MLAB</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">WISDOMVAST - DESKTOP-LK4MLAB</property>
+</record>
+<record>
+  <date>2020-07-02T10:56:43</date>
+  <millis>1593662203132</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-07-02T10:56:43</date>
+  <millis>1593662203151</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.137.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.137.1</property>
+</record>
+<record>
+  <date>2020-07-02T10:56:43</date>
+  <millis>1593662203176</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.5.2.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.5.2.1</property>
+</record>
+<record>
+  <date>2020-07-02T10:56:44</date>
+  <millis>1593662204120</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Home/Banner/Banner Category/Banner Category</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Home/Banner/Banner Category/Banner Category</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Home/Banner/Banner Category/Banner Category</property>
+  <property name="source">C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Test Cases\\Home\\Banner\\Banner Category\\Banner Category.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-07-02T10:56:45</date>
+  <millis>1593662205342</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(\&amp;quot;C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\androidapp\\karaoke_v2_stg_4.3.7_(60).apk\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-07-02T10:56:46</date>
+  <millis>1593662206229</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:56:50</date>
+  <millis>1593662210950</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 63,704</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:06</date>
+  <millis>1593662226384</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.17.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.17.1</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:06</date>
+  <millis>1593662226386</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.17.1\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null,\&amp;quot;status\&amp;quot;:0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.17.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:06</date>
+  <millis>1593662226413</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = R58M93S563N</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">R58M93S563N</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:06</date>
+  <millis>1593662226414</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = samsung SM-A507FN (Android 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">samsung SM-A507FN (Android 10)</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:06</date>
+  <millis>1593662226415</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = SM-A507FN</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">SM-A507FN</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:06</date>
+  <millis>1593662226418</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = samsung</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">samsung</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:06</date>
+  <millis>1593662226419</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:06</date>
+  <millis>1593662226420</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">10</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:06</date>
+  <millis>1593662226477</millis>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\androidapp\\karaoke_v2_stg_4.3.7_(60).apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:06</date>
+  <millis>1593662226478</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(\&amp;quot;C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\androidapp\\karaoke_v2_stg_4.3.7_(60).apk\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:06</date>
+  <millis>1593662226482</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pressBack()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:08</date>
+  <millis>1593662228924</millis>
+  <sequence>23</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Press back button successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:08</date>
+  <millis>1593662228925</millis>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pressBack()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:08</date>
+  <millis>1593662228926</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:11</date>
+  <millis>1593662231995</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:11</date>
+  <millis>1593662231996</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:11</date>
+  <millis>1593662231996</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pressBack()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:13</date>
+  <millis>1593662233075</millis>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Press back button successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:13</date>
+  <millis>1593662233076</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pressBack()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:13</date>
+  <millis>1593662233079</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(21, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:34</date>
+  <millis>1593662254089</millis>
+  <sequence>34</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 21 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:34</date>
+  <millis>1593662254089</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(21, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:34</date>
+  <millis>1593662254092</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Karaoke/Home/Banner/Banner Category/Banner\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:34</date>
+  <millis>1593662254369</millis>
+  <sequence>40</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:37</date>
+  <millis>1593662257894</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Karaoke/Home/Banner/Banner Category/Banner&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:37</date>
+  <millis>1593662257896</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Karaoke/Home/Banner/Banner Category/Banner\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:37</date>
+  <millis>1593662257896</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementText(findTestObject(\&amp;quot;Karaoke/Home/Banner/Banner Category/Country Text\&amp;quot;), \&amp;quot;\u0E25\u0E39\u0E01\u0E17\u0E38\u0E48\u0E07\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:38</date>
+  <millis>1593662258911</millis>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text and expected text of test object &amp;apos;Object Repository/Karaoke/Home/Banner/Banner Category/Country Text&amp;apos; are matched.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:38</date>
+  <millis>1593662258912</millis>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementText(findTestObject(\&amp;quot;Karaoke/Home/Banner/Banner Category/Country Text\&amp;quot;), \&amp;quot;\u0E25\u0E39\u0E01\u0E17\u0E38\u0E48\u0E07\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:38</date>
+  <millis>1593662258913</millis>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:39</date>
+  <millis>1593662259921</millis>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close app successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:39</date>
+  <millis>1593662259922</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:39</date>
+  <millis>1593662259922</millis>
+  <sequence>52</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Home/Banner/Banner Category/Banner Category</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:39</date>
+  <millis>1593662259989</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Home/Banner/Banner Category/Banner Category</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:40</date>
+  <millis>1593662260113</millis>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Home/Banner/Banner Microphone/Banner Microphone</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Home/Banner/Banner Microphone/Banner Microphone</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Home/Banner/Banner Microphone/Banner Microphone</property>
+  <property name="source">C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Test Cases\\Home\\Banner\\Banner Microphone\\Banner Microphone.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:40</date>
+  <millis>1593662260921</millis>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(\&amp;quot;C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\androidapp\\karaoke_v2_stg_4.3.7_(60).apk\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:40</date>
+  <millis>1593662260951</millis>
+  <sequence>58</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:45</date>
+  <millis>1593662265720</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 63,888</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:59</date>
+  <millis>1593662279288</millis>
+  <sequence>61</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.17.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.17.1</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:59</date>
+  <millis>1593662279289</millis>
+  <sequence>62</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.17.1\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null,\&amp;quot;status\&amp;quot;:0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.17.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:59</date>
+  <millis>1593662279304</millis>
+  <sequence>63</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = R58M93S563N</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">R58M93S563N</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:59</date>
+  <millis>1593662279306</millis>
+  <sequence>64</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = samsung SM-A507FN (Android 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">samsung SM-A507FN (Android 10)</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:59</date>
+  <millis>1593662279306</millis>
+  <sequence>65</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = SM-A507FN</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">SM-A507FN</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:59</date>
+  <millis>1593662279320</millis>
+  <sequence>66</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = samsung</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">samsung</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:59</date>
+  <millis>1593662279321</millis>
+  <sequence>67</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:59</date>
+  <millis>1593662279322</millis>
+  <sequence>68</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">10</property>
+</record>
+<record>
+  <date>2020-07-02T10:57:59</date>
+  <millis>1593662279325</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\androidapp\\karaoke_v2_stg_4.3.7_(60).apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:59</date>
+  <millis>1593662279326</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(\&amp;quot;C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\androidapp\\karaoke_v2_stg_4.3.7_(60).apk\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:57:59</date>
+  <millis>1593662279326</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pressBack()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-07-02T10:58:01</date>
+  <millis>1593662281266</millis>
+  <sequence>72</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Press back button successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:01</date>
+  <millis>1593662281267</millis>
+  <sequence>73</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pressBack()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:01</date>
+  <millis>1593662281267</millis>
+  <sequence>74</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-07-02T10:58:04</date>
+  <millis>1593662284272</millis>
+  <sequence>76</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:04</date>
+  <millis>1593662284273</millis>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:04</date>
+  <millis>1593662284275</millis>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pressBack()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-07-02T10:58:04</date>
+  <millis>1593662284765</millis>
+  <sequence>79</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Press back button successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:04</date>
+  <millis>1593662284766</millis>
+  <sequence>80</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pressBack()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:04</date>
+  <millis>1593662284767</millis>
+  <sequence>81</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(33, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-07-02T10:58:37</date>
+  <millis>1593662317776</millis>
+  <sequence>83</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 33 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:37</date>
+  <millis>1593662317778</millis>
+  <sequence>84</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(33, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:37</date>
+  <millis>1593662317780</millis>
+  <sequence>85</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Karaoke/Home/Banner/Banner Category/Banner\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-07-02T10:58:37</date>
+  <millis>1593662317896</millis>
+  <sequence>89</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:40</date>
+  <millis>1593662320864</millis>
+  <sequence>90</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Karaoke/Home/Banner/Banner Category/Banner&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:40</date>
+  <millis>1593662320865</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Karaoke/Home/Banner/Banner Category/Banner\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:40</date>
+  <millis>1593662320865</millis>
+  <sequence>92</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementText(findTestObject(\&amp;quot;Karaoke/Home/Banner/Banner Microphone/Microphone Text\&amp;quot;), \&amp;quot;\u0E1E\u0E34\u0E40\u0E28\u0E29! \u0E40\u0E1E\u0E35\u0E22\u0E07 899.- (\u0E08\u0E32\u0E01\u0E1B\u0E01\u0E15\u0E34 1,495.-)\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-07-02T10:58:42</date>
+  <millis>1593662322556</millis>
+  <sequence>96</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text and expected text of test object &amp;apos;Object Repository/Karaoke/Home/Banner/Banner Microphone/Microphone Text&amp;apos; are matched.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:42</date>
+  <millis>1593662322558</millis>
+  <sequence>97</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementText(findTestObject(\&amp;quot;Karaoke/Home/Banner/Banner Microphone/Microphone Text\&amp;quot;), \&amp;quot;\u0E1E\u0E34\u0E40\u0E28\u0E29! \u0E40\u0E1E\u0E35\u0E22\u0E07 899.- (\u0E08\u0E32\u0E01\u0E1B\u0E01\u0E15\u0E34 1,495.-)\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:42</date>
+  <millis>1593662322558</millis>
+  <sequence>98</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-07-02T10:58:43</date>
+  <millis>1593662323161</millis>
+  <sequence>99</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close app successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:43</date>
+  <millis>1593662323162</millis>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:43</date>
+  <millis>1593662323162</millis>
+  <sequence>101</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Home/Banner/Banner Microphone/Banner Microphone</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:43</date>
+  <millis>1593662323162</millis>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Home/Banner/Banner Microphone/Banner Microphone</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:43</date>
+  <millis>1593662323169</millis>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Home/Banner/Banner Package/Banner Package</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Home/Banner/Banner Package/Banner Package</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Home/Banner/Banner Package/Banner Package</property>
+  <property name="source">C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Test Cases\\Home\\Banner\\Banner Package\\Banner Package.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-07-02T10:58:43</date>
+  <millis>1593662323627</millis>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(\&amp;quot;C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\androidapp\\karaoke_v2_stg_4.3.7_(60).apk\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-07-02T10:58:43</date>
+  <millis>1593662323634</millis>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:58:47</date>
+  <millis>1593662327524</millis>
+  <sequence>108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 64,072</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:00</date>
+  <millis>1593662340777</millis>
+  <sequence>110</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.17.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.17.1</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:00</date>
+  <millis>1593662340777</millis>
+  <sequence>111</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.17.1\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null,\&amp;quot;status\&amp;quot;:0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.17.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:00</date>
+  <millis>1593662340805</millis>
+  <sequence>112</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = R58M93S563N</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">R58M93S563N</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:00</date>
+  <millis>1593662340806</millis>
+  <sequence>113</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = samsung SM-A507FN (Android 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">samsung SM-A507FN (Android 10)</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:00</date>
+  <millis>1593662340806</millis>
+  <sequence>114</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = SM-A507FN</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">SM-A507FN</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:00</date>
+  <millis>1593662340807</millis>
+  <sequence>115</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = samsung</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">samsung</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:00</date>
+  <millis>1593662340807</millis>
+  <sequence>116</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:00</date>
+  <millis>1593662340808</millis>
+  <sequence>117</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">10</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:00</date>
+  <millis>1593662340812</millis>
+  <sequence>118</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\androidapp\\karaoke_v2_stg_4.3.7_(60).apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:00</date>
+  <millis>1593662340817</millis>
+  <sequence>119</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(\&amp;quot;C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\androidapp\\karaoke_v2_stg_4.3.7_(60).apk\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:00</date>
+  <millis>1593662340817</millis>
+  <sequence>120</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pressBack()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:02</date>
+  <millis>1593662342784</millis>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Press back button successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:02</date>
+  <millis>1593662342785</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pressBack()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:02</date>
+  <millis>1593662342785</millis>
+  <sequence>123</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:05</date>
+  <millis>1593662345790</millis>
+  <sequence>125</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:05</date>
+  <millis>1593662345791</millis>
+  <sequence>126</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:05</date>
+  <millis>1593662345791</millis>
+  <sequence>127</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pressBack()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:06</date>
+  <millis>1593662346918</millis>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Press back button successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:06</date>
+  <millis>1593662346918</millis>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pressBack()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:06</date>
+  <millis>1593662346919</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:09</date>
+  <millis>1593662349927</millis>
+  <sequence>132</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:09</date>
+  <millis>1593662349927</millis>
+  <sequence>133</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:09</date>
+  <millis>1593662349929</millis>
+  <sequence>134</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Karaoke/Home/Banner/Banner Category/Banner\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:10</date>
+  <millis>1593662350049</millis>
+  <sequence>138</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:14</date>
+  <millis>1593662354144</millis>
+  <sequence>139</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Karaoke/Home/Banner/Banner Category/Banner&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:14</date>
+  <millis>1593662354145</millis>
+  <sequence>140</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Karaoke/Home/Banner/Banner Category/Banner\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:14</date>
+  <millis>1593662354145</millis>
+  <sequence>141</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(4, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-07-02T10:59:18</date>
+  <millis>1593662358162</millis>
+  <sequence>143</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:18</date>
+  <millis>1593662358162</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(4, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T10:59:18</date>
+  <millis>1593662358163</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementText(findTestObject(\&amp;quot;Karaoke/Home/Banner/Banner Package/5 Bath Text\&amp;quot;), \&amp;quot;5\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">8</property>
+</record>

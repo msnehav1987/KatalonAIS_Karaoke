@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Home Song" time="223.2" tests="6" failures="0" errors="0">
+   <testsuite name="Home Song" tests="6" failures="0" errors="0" time="223.2" timestamp="2020-07-02 17:29:55" hostname="WISDOMVAST - DESKTOP-LK4MLAB" id="Test Suites/Home Song">
+      <properties>
+         <property name="deviceName" value="samsung SM-A507FN (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Home Song\\20200702_171904"/>
+         <property name="logFiles" value="C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Home Song\\20200702_171904\\appium.log, C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Home Song\\20200702_171904\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WISDOMVAST - DESKTOP-LK4MLAB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.17.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.17.1"/>
+         <property name="deviceModel" value="SM-A507FN"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R58M93S563N"/>
+         <property name="deviceName" value="samsung SM-A507FN (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Home/Song Grid/Song Grid while playing" time="50.932" classname="Test Cases/Home/Song Grid/Song Grid while playing" status="PASSED">
+         <system-out><![CDATA[2020-07-02 17:29:55 - [TEST_CASE][PASSED] - Test Cases/Home/Song Grid/Song Grid while playing: Test Cases/Home/Song Grid/Song Grid while playing
+
+2020-07-02 17:29:56 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:29:57 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:30:00 - [MESSAGE][INFO] - Appium server started on port 53,831
+
+2020-07-02 17:30:14 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:30:14 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:30:16 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:30:16 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:30:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:30:19 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:30:20 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:30:20 - [TEST_STEP][PASSED] - scrollToText("Flag Test", STOP_ON_FAILURE): Scrolling to text 'Flag Test' successfully
+
+2020-07-02 17:30:31 - [MESSAGE][PASSED] - Scrolling to text 'Flag Test' successfully
+
+2020-07-02 17:30:31 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Song Grid/Category Layout"), 0): Tapped on element 'Object Repository/Karaoke/Home/Song Grid/Category Layout'
+
+2020-07-02 17:30:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:30:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Song Grid/Category Layout'
+
+2020-07-02 17:30:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Home/Song Grid/a Text"), "a"): Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Grid/a Text' are matched.
+
+2020-07-02 17:30:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Grid/a Text' are matched.
+
+2020-07-02 17:30:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Home/Song Grid/Play All Text"), "เล่นทั้งหมด"): Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Grid/Play All Text' are matched.
+
+2020-07-02 17:30:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Grid/Play All Text' are matched.
+
+2020-07-02 17:30:37 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Song Grid/Play All Text"), 0): Tapped on element 'Object Repository/Karaoke/Home/Song Grid/Play All Text'
+
+2020-07-02 17:30:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:30:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Song Grid/Play All Text'
+
+2020-07-02 17:30:39 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Banner/Banner Playlist/Play text"), 0): Tapped on element 'Object Repository/Karaoke/Home/Banner/Banner Playlist/Play text'
+
+2020-07-02 17:30:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:30:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Banner/Banner Playlist/Play text'
+
+2020-07-02 17:30:41 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:30:42 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:30:42 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Song Grid/1st song layout"), 0): Tapped on element 'Object Repository/Karaoke/Home/Song Grid/1st song layout'
+
+2020-07-02 17:30:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:30:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Song Grid/1st song layout'
+
+2020-07-02 17:30:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Home/Song Grid/Play modal text"), "เล่น"): Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Grid/Play modal text' are matched.
+
+2020-07-02 17:30:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Grid/Play modal text' are matched.
+
+2020-07-02 17:30:45 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 17:30:46 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Song Grid/Song Grid" time="39.011" classname="Test Cases/Home/Song Grid/Song Grid" status="PASSED">
+         <system-out><![CDATA[2020-07-02 17:30:46 - [TEST_CASE][PASSED] - Test Cases/Home/Song Grid/Song Grid: Test Cases/Home/Song Grid/Song Grid
+
+2020-07-02 17:30:46 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:30:46 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:30:49 - [MESSAGE][INFO] - Appium server started on port 54,023
+
+2020-07-02 17:31:02 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:31:02 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:31:04 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:31:04 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:31:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:31:07 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:31:07 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:31:07 - [TEST_STEP][PASSED] - scrollToText("Flag Test", STOP_ON_FAILURE): Scrolling to text 'Flag Test' successfully
+
+2020-07-02 17:31:19 - [MESSAGE][PASSED] - Scrolling to text 'Flag Test' successfully
+
+2020-07-02 17:31:19 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Song Grid/Category Layout"), 0): Tapped on element 'Object Repository/Karaoke/Home/Song Grid/Category Layout'
+
+2020-07-02 17:31:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:31:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Song Grid/Category Layout'
+
+2020-07-02 17:31:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Home/Song Grid/a Text"), "a"): Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Grid/a Text' are matched.
+
+2020-07-02 17:31:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Grid/a Text' are matched.
+
+2020-07-02 17:31:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Home/Song Grid/Play All Text"), "เล่นทั้งหมด"): Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Grid/Play All Text' are matched.
+
+2020-07-02 17:31:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Grid/Play All Text' are matched.
+
+2020-07-02 17:31:25 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 17:31:25 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Song Horizontal/Song horizontal while playing" time="40.279" classname="Test Cases/Home/Song Horizontal/Song horizontal while playing" status="PASSED">
+         <system-out><![CDATA[2020-07-02 17:31:25 - [TEST_CASE][PASSED] - Test Cases/Home/Song Horizontal/Song horizontal while playing: Test Cases/Home/Song Horizontal/Song horizontal while playing
+
+2020-07-02 17:31:25 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:31:26 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:31:29 - [MESSAGE][INFO] - Appium server started on port 54,211
+
+2020-07-02 17:31:43 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:31:43 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:31:45 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:31:45 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:31:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:31:48 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:31:48 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:31:48 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Song Horizontal/Khuen Tee Daw Layout"), 0): Tapped on element 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Layout'
+
+2020-07-02 17:31:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:31:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Layout'
+
+2020-07-02 17:31:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Home/Song Horizontal/Khuen Tee Daw Text"), "คืนที่ดาวเต็มฟ้า"): Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Text' are matched.
+
+2020-07-02 17:31:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Text' are matched.
+
+2020-07-02 17:31:58 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:31:58 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:31:58 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Song Horizontal/Khuen Tee Daw Layout"), 0): Tapped on element 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Layout'
+
+2020-07-02 17:31:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:32:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Layout'
+
+2020-07-02 17:32:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Home/Song Horizontal/Play modal text"), "เล่น"): Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Horizontal/Play modal text' are matched.
+
+2020-07-02 17:32:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Horizontal/Play modal text' are matched.
+
+2020-07-02 17:32:05 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 17:32:05 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Song Horizontal/Song horizontal" time="28.846" classname="Test Cases/Home/Song Horizontal/Song horizontal" status="PASSED">
+         <system-out><![CDATA[2020-07-02 17:32:05 - [TEST_CASE][PASSED] - Test Cases/Home/Song Horizontal/Song horizontal: Test Cases/Home/Song Horizontal/Song horizontal
+
+2020-07-02 17:32:06 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:32:06 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:32:09 - [MESSAGE][INFO] - Appium server started on port 54,399
+
+2020-07-02 17:32:21 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:32:21 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:32:23 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:32:23 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:32:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:32:26 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:32:26 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:32:26 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Song Horizontal/Khuen Tee Daw Layout"), 0): Tapped on element 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Layout'
+
+2020-07-02 17:32:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:32:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Layout'
+
+2020-07-02 17:32:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Home/Song Horizontal/Khuen Tee Daw Text"), "คืนที่ดาวเต็มฟ้า"): Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Text' are matched.
+
+2020-07-02 17:32:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Text' are matched.
+
+2020-07-02 17:32:34 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 17:32:34 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Song Ranking/Song ranking while playing" time="33.655" classname="Test Cases/Home/Song Ranking/Song ranking while playing" status="PASSED">
+         <system-out><![CDATA[2020-07-02 17:32:34 - [TEST_CASE][PASSED] - Test Cases/Home/Song Ranking/Song ranking while playing: Test Cases/Home/Song Ranking/Song ranking while playing
+
+2020-07-02 17:32:35 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:32:35 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:32:38 - [MESSAGE][INFO] - Appium server started on port 54,583
+
+2020-07-02 17:32:50 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:32:50 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:32:52 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:32:52 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:32:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:32:55 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:32:55 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:32:55 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Song Ranking/For Mother Never Lost Layout"), 0): Tapped on element 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Layout'
+
+2020-07-02 17:32:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:32:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Layout'
+
+2020-07-02 17:32:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Home/Song Ranking/For Mother Never Lost Text"), "เพื่อแม่แพ้บ่ได้ "): Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' are matched.
+
+2020-07-02 17:33:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' are matched.
+
+2020-07-02 17:33:02 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:33:03 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:33:03 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Song Ranking/For Mother Never Lost Layout"), 0): Tapped on element 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Layout'
+
+2020-07-02 17:33:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:33:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Layout'
+
+2020-07-02 17:33:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Home/Song Ranking/Play modal text"), "เล่น"): Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Ranking/Play modal text' are matched.
+
+2020-07-02 17:33:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Ranking/Play modal text' are matched.
+
+2020-07-02 17:33:07 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 17:33:08 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Song Ranking/Song ranking" time="29.872" classname="Test Cases/Home/Song Ranking/Song ranking" status="PASSED">
+         <system-out><![CDATA[2020-07-02 17:33:08 - [TEST_CASE][PASSED] - Test Cases/Home/Song Ranking/Song ranking: Test Cases/Home/Song Ranking/Song ranking
+
+2020-07-02 17:33:08 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:33:08 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:33:11 - [MESSAGE][INFO] - Appium server started on port 54,769
+
+2020-07-02 17:33:25 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:33:25 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:33:27 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:33:27 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:33:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:33:30 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:33:30 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:33:30 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Song Ranking/For Mother Never Lost Layout"), 0): Tapped on element 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Layout'
+
+2020-07-02 17:33:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:33:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Layout'
+
+2020-07-02 17:33:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Home/Song Ranking/For Mother Never Lost Text"), "เพื่อแม่แพ้บ่ได้ "): Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' are matched.
+
+2020-07-02 17:33:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' are matched.
+
+2020-07-02 17:33:37 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 17:33:38 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-02 17:29:55 - [TEST_SUITE][PASSED] - Home Song: Test Cases/Home/Song Ranking/Song ranking]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

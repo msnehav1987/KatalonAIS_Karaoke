@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search" time="222.81" tests="6" failures="3" errors="0">
+   <testsuite name="Search" tests="6" failures="3" errors="0" time="222.81" timestamp="2020-07-02 17:33:51" hostname="WISDOMVAST - DESKTOP-LK4MLAB" id="Test Suites/Search">
+      <properties>
+         <property name="deviceName" value="samsung SM-A507FN (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Search\\20200702_171910"/>
+         <property name="logFiles" value="C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Search\\20200702_171910\\appium.log, C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Search\\20200702_171910\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Search\\20200702_171910\\1593686160049.png, C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Search\\20200702_171910\\1593686161132.png, C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Search\\20200702_171910\\1593686251538.png, C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Search\\20200702_171910\\1593686252462.png"/>
+         <property name="hostName" value="WISDOMVAST - DESKTOP-LK4MLAB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.17.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.17.1"/>
+         <property name="deviceModel" value="SM-A507FN"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R58M93S563N"/>
+         <property name="deviceName" value="samsung SM-A507FN (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Search/Search Normal/Search Normal Artist" time="35.134" classname="Test Cases/Search/Search Normal/Search Normal Artist" status="PASSED">
+         <system-out><![CDATA[2020-07-02 17:33:52 - [TEST_CASE][PASSED] - Test Cases/Search/Search Normal/Search Normal Artist: Test Cases/Search/Search Normal/Search Normal Artist
+
+2020-07-02 17:33:52 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:33:53 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:33:57 - [MESSAGE][INFO] - Appium server started on port 54,956
+
+2020-07-02 17:34:11 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:34:11 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:34:13 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:34:13 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:34:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:34:16 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:34:16 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:34:16 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Search/Search button"), 0): Tapped on element 'Object Repository/Karaoke/Search/Search button'
+
+2020-07-02 17:34:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:34:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Search/Search button'
+
+2020-07-02 17:34:21 - [TEST_STEP][PASSED] - setText(findTestObject("Karaoke/Search/Search Normal/Edit Text Search"), "กรู๊ฟ ไรเดอร์", 0): Text 'กรู๊ฟ ไรเดอร์' has been set to element 'Object Repository/Karaoke/Search/Search Normal/Edit Text Search'
+
+2020-07-02 17:34:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:34:23 - [MESSAGE][PASSED] - Text 'กรู๊ฟ ไรเดอร์' has been set to element 'Object Repository/Karaoke/Search/Search Normal/Edit Text Search'
+
+2020-07-02 17:34:23 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Search/Search Normal/Groove Rider Layout"), 0): Tapped on element 'Object Repository/Karaoke/Search/Search Normal/Groove Rider Layout'
+
+2020-07-02 17:34:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:34:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Search/Search Normal/Groove Rider Layout'
+
+2020-07-02 17:34:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Search/Search Normal/Groove Rider Text"), "กรู๊ฟ ไรเดอร์ "): Actual text and expected text of test object 'Object Repository/Karaoke/Search/Search Normal/Groove Rider Text' are matched.
+
+2020-07-02 17:34:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Search/Search Normal/Groove Rider Text' are matched.
+
+2020-07-02 17:34:26 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 17:34:27 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/Search Normal/Search Normal Song" time="31.958" classname="Test Cases/Search/Search Normal/Search Normal Song" status="PASSED">
+         <system-out><![CDATA[2020-07-02 17:34:27 - [TEST_CASE][PASSED] - Test Cases/Search/Search Normal/Search Normal Song: Test Cases/Search/Search Normal/Search Normal Song
+
+2020-07-02 17:34:27 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:34:27 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:34:30 - [MESSAGE][INFO] - Appium server started on port 55,137
+
+2020-07-02 17:34:42 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:34:42 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:34:44 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:34:44 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:34:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:34:47 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:34:48 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:34:48 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Search/Search button"), 0): Tapped on element 'Object Repository/Karaoke/Search/Search button'
+
+2020-07-02 17:34:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:34:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Search/Search button'
+
+2020-07-02 17:34:51 - [TEST_STEP][PASSED] - setText(findTestObject("Karaoke/Search/Search Normal/Edit Text Search"), "ก", 0): Text 'ก' has been set to element 'Object Repository/Karaoke/Search/Search Normal/Edit Text Search'
+
+2020-07-02 17:34:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:34:54 - [MESSAGE][PASSED] - Text 'ก' has been set to element 'Object Repository/Karaoke/Search/Search Normal/Edit Text Search'
+
+2020-07-02 17:34:54 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Search/Search Normal/Gor por Layout"), 0): Tapped on element 'Object Repository/Karaoke/Search/Search Normal/Gor por Layout'
+
+2020-07-02 17:34:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:34:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Search/Search Normal/Gor por Layout'
+
+2020-07-02 17:34:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Search/Search Normal/Gor por Text"), "ก็พอ"): Actual text and expected text of test object 'Object Repository/Karaoke/Search/Search Normal/Gor por Text' are matched.
+
+2020-07-02 17:34:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Search/Search Normal/Gor por Text' are matched.
+
+2020-07-02 17:34:58 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 17:34:59 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/Search Hit/Search Hit Artist" time="63.015" classname="Test Cases/Search/Search Hit/Search Hit Artist" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Search/Search Hit/Search Hit Artist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat Text' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Search Hit Artist.run(Search Hit Artist:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+"/>
+         <system-out><![CDATA[2020-07-02 17:34:59 - [TEST_CASE][FAILED] - Test Cases/Search/Search Hit/Search Hit Artist: Test Cases/Search/Search Hit/Search Hit Artist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat Text' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Search Hit Artist.run(Search Hit Artist:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+
+
+2020-07-02 17:34:59 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:34:59 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:35:02 - [MESSAGE][INFO] - Appium server started on port 55,318
+
+2020-07-02 17:35:15 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:35:15 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:35:17 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:35:17 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:35:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:35:20 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:35:20 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:35:20 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Search/Search button"), 0): Tapped on element 'Object Repository/Karaoke/Search/Search button'
+
+2020-07-02 17:35:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:35:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Search/Search button'
+
+2020-07-02 17:35:24 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Search/Search Hit/Chat suchat hit Layout"), 0): Tapped on element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat hit Layout'
+
+2020-07-02 17:35:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:35:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat hit Layout'
+
+2020-07-02 17:35:25 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Search/Search Hit/Chat suchat Layout"), 0): Tapped on element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat Layout'
+
+2020-07-02 17:35:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:35:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat Layout'
+
+2020-07-02 17:35:29 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Karaoke/Search/Search Hit/Chat suchat Text"), "ชาติ สุชาติ"): Verify element text of test object 'Object Repository/Karaoke/Search/Search Hit/Chat suchat Text' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat Text' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Search Hit Artist.run(Search Hit Artist:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+)
+
+2020-07-02 17:36:01 - [MESSAGE][FAILED] - Element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat Text' not found
+[[ATTACHMENT|C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Search\\20200702_171910\\1593686160049.png]]
+
+2020-07-02 17:36:02 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Karaoke/Search/Search Hit/Chat suchat Text' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat Text' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Search Hit Artist.run(Search Hit Artist:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+)
+[[ATTACHMENT|C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Search\\20200702_171910\\1593686161132.png]]]]></system-out>
+         <system-err><![CDATA[2020-07-02 17:34:59 - [TEST_CASE][FAILED] - Test Cases/Search/Search Hit/Search Hit Artist: Test Cases/Search/Search Hit/Search Hit Artist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat Text' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Search Hit Artist.run(Search Hit Artist:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/Search Hit/Search Hit Song" time="28.896" classname="Test Cases/Search/Search Hit/Search Hit Song" status="PASSED">
+         <system-out><![CDATA[2020-07-02 17:36:02 - [TEST_CASE][PASSED] - Test Cases/Search/Search Hit/Search Hit Song: Test Cases/Search/Search Hit/Search Hit Song
+
+2020-07-02 17:36:02 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:36:02 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:36:15 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:36:15 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:36:17 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:36:17 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:36:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:36:20 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:36:20 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:36:20 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Search/Search button"), 0): Tapped on element 'Object Repository/Karaoke/Search/Search button'
+
+2020-07-02 17:36:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:36:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Search/Search button'
+
+2020-07-02 17:36:24 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Search/Search Hit/Chat suchat hit Layout"), 0): Tapped on element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat hit Layout'
+
+2020-07-02 17:36:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:36:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat hit Layout'
+
+2020-07-02 17:36:25 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Search/Search Hit/Story on the way Layout"), 0): Tapped on element 'Object Repository/Karaoke/Search/Search Hit/Story on the way Layout'
+
+2020-07-02 17:36:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:36:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Search/Search Hit/Story on the way Layout'
+
+2020-07-02 17:36:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Search/Search Hit/Story on the way Text"), "เรื่องระหว่างทาง Feat. ชาติ สุชาติ"): Actual text and expected text of test object 'Object Repository/Karaoke/Search/Search Hit/Story on the way Text' are matched.
+
+2020-07-02 17:36:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Search/Search Hit/Story on the way Text' are matched.
+
+2020-07-02 17:36:30 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 17:36:31 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/Search History/Search History Song" time="62.194" classname="Test Cases/Search/Search History/Search History Song" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Search/Search History/Search History Song FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Karaoke/Search/Search History/Gor Recently Layout not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Search History Song.run(Search History Song:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+"/>
+         <system-out><![CDATA[2020-07-02 17:36:31 - [TEST_CASE][FAILED] - Test Cases/Search/Search History/Search History Song: Test Cases/Search/Search History/Search History Song FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Karaoke/Search/Search History/Gor Recently Layout not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Search History Song.run(Search History Song:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+
+
+2020-07-02 17:36:31 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:36:31 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:36:36 - [MESSAGE][INFO] - Appium server started on port 55,661
+
+2020-07-02 17:36:51 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:36:51 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:36:53 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:36:53 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:36:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:36:56 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:36:57 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:36:57 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Search/Search button"), 0): Tapped on element 'Object Repository/Karaoke/Search/Search button'
+
+2020-07-02 17:36:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:37:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Search/Search button'
+
+2020-07-02 17:37:01 - [TEST_STEP][FAILED] - tap(findTestObject("Karaoke/Search/Search History/Gor Recently Layout"), 0): Failed to tap on element 'Object Repository/Karaoke/Search/Search History/Gor Recently Layout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Karaoke/Search/Search History/Gor Recently Layout not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Search History Song.run(Search History Song:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+)
+
+2020-07-02 17:37:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:37:32 - [MESSAGE][FAILED] - Object Object Repository/Karaoke/Search/Search History/Gor Recently Layout not found
+[[ATTACHMENT|C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Search\\20200702_171910\\1593686251538.png]]
+
+2020-07-02 17:37:33 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Karaoke/Search/Search History/Gor Recently Layout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Karaoke/Search/Search History/Gor Recently Layout not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Search History Song.run(Search History Song:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+)
+[[ATTACHMENT|C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Search\\20200702_171910\\1593686252462.png]]]]></system-out>
+         <system-err><![CDATA[2020-07-02 17:36:31 - [TEST_CASE][FAILED] - Test Cases/Search/Search History/Search History Song: Test Cases/Search/Search History/Search History Song FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Karaoke/Search/Search History/Gor Recently Layout not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Search History Song.run(Search History Song:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/Search History/Search History" time="0.453" classname="Test Cases/Search/Search History/Search History" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Search/Search History/Search History FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:458)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:372)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Search History.run(Search History:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Search History.run(Search History:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+Caused by: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:458)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:372)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-07-02 17:37:33 - [TEST_CASE][FAILED] - Test Cases/Search/Search History/Search History: Test Cases/Search/Search History/Search History FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:458)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:372)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Search History.run(Search History:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Search History.run(Search History:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+Caused by: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:458)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:372)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+
+
+2020-07-02 17:37:33 - [TEST_STEP][FAILED] - startApplication("C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk", false): Unable to start app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:458)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:372)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Search History.run(Search History:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+)
+
+2020-07-02 17:37:33 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:37:33 - [MESSAGE][FAILED] - Unable to start app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:458)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:372)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Search History.run(Search History:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+)]]></system-out>
+         <system-err><![CDATA[2020-07-02 17:37:33 - [TEST_CASE][FAILED] - Test Cases/Search/Search History/Search History: Test Cases/Search/Search History/Search History FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:458)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:372)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Search History.run(Search History:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)
+	at Search History.run(Search History:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)
+Caused by: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:458)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:372)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-02 17:33:51 - [TEST_SUITE][FAILED] - Search: Test Cases/Search/Search Hit/Search Hit Artist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat Text' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Search Hit Artist.run(Search Hit Artist:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)]]></system-out>
+      <system-err><![CDATA[2020-07-02 17:33:51 - [TEST_SUITE][FAILED] - Search: Test Cases/Search/Search Hit/Search Hit Artist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Karaoke/Search/Search Hit/Chat suchat Text' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:49)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Search Hit Artist.run(Search Hit Artist:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593685150285.run(TempTestSuite1593685150285.groovy:37)]]></system-err>
+   </testsuite>
+</testsuites>

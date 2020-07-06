@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20200702_171852</name>
+   <tag></tag>
+   <displayName>20200702_171852</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20200702_171852/Category/20200702_171852</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20200702_171852/Home Banner and Event/20200702_171858</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20200702_171852/Home Song/20200702_171904</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20200702_171852/Search/20200702_171910</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20200702_171852/Setting/20200702_171915</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Regression Test</testSuiteCollectionId>
+</ReportCollectionEntity>

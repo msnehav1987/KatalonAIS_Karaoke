@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Category" time="152.367" tests="4" failures="0" errors="0">
+   <testsuite name="Category" tests="4" failures="0" errors="0" time="152.367" timestamp="2020-07-02 17:19:30" hostname="WISDOMVAST - DESKTOP-LK4MLAB" id="Test Suites/Category">
+      <properties>
+         <property name="deviceName" value="samsung SM-A507FN (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Category\\20200702_171852"/>
+         <property name="logFiles" value="C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Category\\20200702_171852\\appium.log, C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_171852\\Category\\20200702_171852\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WISDOMVAST - DESKTOP-LK4MLAB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.17.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.17.1"/>
+         <property name="deviceModel" value="SM-A507FN"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R58M93S563N"/>
+         <property name="deviceName" value="samsung SM-A507FN (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Category/Category" time="34.173" classname="Test Cases/Category/Category" status="PASSED">
+         <system-out><![CDATA[2020-07-02 17:19:30 - [TEST_CASE][PASSED] - Test Cases/Category/Category: Test Cases/Category/Category
+
+2020-07-02 17:19:31 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:19:32 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:19:37 - [MESSAGE][INFO] - Appium server started on port 51,411
+
+2020-07-02 17:19:51 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:19:51 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:19:53 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:19:53 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:19:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:19:56 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:19:56 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:19:56 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Category button"), 0): Tapped on element 'Object Repository/Karaoke/Category/Category button'
+
+2020-07-02 17:19:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:20:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Category button'
+
+2020-07-02 17:20:01 - [TEST_STEP][PASSED] - tapAtPosition(551, 1288): Tapped at [551, 1,288]
+
+2020-07-02 17:20:01 - [MESSAGE][PASSED] - Tapped at [551, 1,288]
+
+2020-07-02 17:20:01 - [TEST_STEP][PASSED] - tapAtPosition(232, 283): Tapped at [232, 283]
+
+2020-07-02 17:20:02 - [MESSAGE][PASSED] - Tapped at [232, 283]
+
+2020-07-02 17:20:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Category/Category/mai mee ther Text"), "ไม่มีเธอ"): Actual text and expected text of test object 'Object Repository/Karaoke/Category/Category/mai mee ther Text' are matched.
+
+2020-07-02 17:20:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Category/Category/mai mee ther Text' are matched.
+
+2020-07-02 17:20:04 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 17:20:05 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Test Playlist add queue" time="37.757" classname="Test Cases/Category/Test Playlist add queue" status="PASSED">
+         <system-out><![CDATA[2020-07-02 17:20:05 - [TEST_CASE][PASSED] - Test Cases/Category/Test Playlist add queue: Test Cases/Category/Test Playlist add queue
+
+2020-07-02 17:20:05 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:20:05 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:20:08 - [MESSAGE][INFO] - Appium server started on port 51,597
+
+2020-07-02 17:20:20 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:20:20 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:20:22 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:20:22 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:20:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:20:25 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:20:26 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:20:26 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Category button"), 0): Tapped on element 'Object Repository/Karaoke/Category/Category button'
+
+2020-07-02 17:20:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:20:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Category button'
+
+2020-07-02 17:20:30 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Playlist/Playlist Grid"), 0): Tapped on element 'Object Repository/Karaoke/Category/Playlist/Playlist Grid'
+
+2020-07-02 17:20:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:20:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Playlist/Playlist Grid'
+
+2020-07-02 17:20:33 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Playlist/Play all button"), 0): Tapped on element 'Object Repository/Karaoke/Category/Playlist/Play all button'
+
+2020-07-02 17:20:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:20:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Playlist/Play all button'
+
+2020-07-02 17:20:37 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Playlist/Add Queue button"), 0): Tapped on element 'Object Repository/Karaoke/Category/Playlist/Add Queue button'
+
+2020-07-02 17:20:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:20:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Playlist/Add Queue button'
+
+2020-07-02 17:20:39 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Queue right down button"), 0): Tapped on element 'Object Repository/Karaoke/Category/Queue right down button'
+
+2020-07-02 17:20:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:20:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Queue right down button'
+
+2020-07-02 17:20:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Category/Playlist/keun tee daw tem fha Text"), "คืนที่ดาวเต็มฟ้า"): Actual text and expected text of test object 'Object Repository/Karaoke/Category/Playlist/keun tee daw tem fha Text' are matched.
+
+2020-07-02 17:20:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Category/Playlist/keun tee daw tem fha Text' are matched.
+
+2020-07-02 17:20:42 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 17:20:42 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Test Playlist delete all" time="41.913" classname="Test Cases/Category/Test Playlist delete all" status="PASSED">
+         <system-out><![CDATA[2020-07-02 17:20:42 - [TEST_CASE][PASSED] - Test Cases/Category/Test Playlist delete all: Test Cases/Category/Test Playlist delete all
+
+2020-07-02 17:20:43 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:20:43 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:20:46 - [MESSAGE][INFO] - Appium server started on port 51,779
+
+2020-07-02 17:20:58 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:20:58 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:21:00 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:21:00 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:21:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:21:03 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:21:03 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:21:03 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Category button"), 0): Tapped on element 'Object Repository/Karaoke/Category/Category button'
+
+2020-07-02 17:21:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:21:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Category button'
+
+2020-07-02 17:21:08 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Playlist/Playlist Grid"), 0): Tapped on element 'Object Repository/Karaoke/Category/Playlist/Playlist Grid'
+
+2020-07-02 17:21:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:21:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Playlist/Playlist Grid'
+
+2020-07-02 17:21:11 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Playlist/Play all button"), 0): Tapped on element 'Object Repository/Karaoke/Category/Playlist/Play all button'
+
+2020-07-02 17:21:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:21:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Playlist/Play all button'
+
+2020-07-02 17:21:15 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Playlist/Play button"), 0): Tapped on element 'Object Repository/Karaoke/Category/Playlist/Play button'
+
+2020-07-02 17:21:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:21:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Playlist/Play button'
+
+2020-07-02 17:21:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Category/Playlist/keun tee daw tem fha Text"), "คืนที่ดาวเต็มฟ้า"): Actual text and expected text of test object 'Object Repository/Karaoke/Category/Playlist/keun tee daw tem fha Text' are matched.
+
+2020-07-02 17:21:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Category/Playlist/keun tee daw tem fha Text' are matched.
+
+2020-07-02 17:21:18 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Delete all/Delete all button"), 0): Tapped on element 'Object Repository/Karaoke/Category/Delete all/Delete all button'
+
+2020-07-02 17:21:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:21:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Delete all/Delete all button'
+
+2020-07-02 17:21:22 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Delete all/Yes button"), 0): Tapped on element 'Object Repository/Karaoke/Category/Delete all/Yes button'
+
+2020-07-02 17:21:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:21:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Delete all/Yes button'
+
+2020-07-02 17:21:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Category/Delete all/No queue Text"), "ไม่มีคิวเพลง"): Actual text and expected text of test object 'Object Repository/Karaoke/Category/Delete all/No queue Text' are matched.
+
+2020-07-02 17:21:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Category/Delete all/No queue Text' are matched.
+
+2020-07-02 17:21:24 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 17:21:24 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Test Playlist play" time="37.737" classname="Test Cases/Category/Test Playlist play" status="PASSED">
+         <system-out><![CDATA[2020-07-02 17:21:24 - [TEST_CASE][PASSED] - Test Cases/Category/Test Playlist play: Test Cases/Category/Test Playlist play
+
+2020-07-02 17:21:25 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:21:25 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R58M93S563N']
+
+2020-07-02 17:21:29 - [MESSAGE][INFO] - Appium server started on port 51,960
+
+2020-07-02 17:21:42 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Downloads\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 17:21:42 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:21:44 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:21:44 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 17:21:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 17:21:47 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 17:21:47 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 17:21:47 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Category button"), 0): Tapped on element 'Object Repository/Karaoke/Category/Category button'
+
+2020-07-02 17:21:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:21:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Category button'
+
+2020-07-02 17:21:52 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Playlist/Playlist Grid"), 0): Tapped on element 'Object Repository/Karaoke/Category/Playlist/Playlist Grid'
+
+2020-07-02 17:21:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:21:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Playlist/Playlist Grid'
+
+2020-07-02 17:21:55 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Playlist/Play all button"), 0): Tapped on element 'Object Repository/Karaoke/Category/Playlist/Play all button'
+
+2020-07-02 17:21:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:21:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Playlist/Play all button'
+
+2020-07-02 17:21:58 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Category/Playlist/Play button"), 0): Tapped on element 'Object Repository/Karaoke/Category/Playlist/Play button'
+
+2020-07-02 17:21:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 17:22:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Category/Playlist/Play button'
+
+2020-07-02 17:22:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Category/Playlist/keun tee daw tem fha Text"), "คืนที่ดาวเต็มฟ้า"): Actual text and expected text of test object 'Object Repository/Karaoke/Category/Playlist/keun tee daw tem fha Text' are matched.
+
+2020-07-02 17:22:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Category/Playlist/keun tee daw tem fha Text' are matched.
+
+2020-07-02 17:22:02 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 17:22:02 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-02 17:19:30 - [TEST_SUITE][PASSED] - Category: Test Cases/Category/Test Playlist play]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

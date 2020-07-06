@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Home Song" time="92.85" tests="3" failures="1" errors="0">
+   <testsuite name="Home Song" tests="3" failures="1" errors="0" time="92.85" timestamp="2020-07-02 11:44:07" hostname="WISDOMVAST - DESKTOP-LK4MLAB" id="Test Suites/Home Song">
+      <properties>
+         <property name="deviceName" value="samsung SM-A507FN (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_114352\\Home Song\\20200702_114352"/>
+         <property name="logFiles" value="C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_114352\\Home Song\\20200702_114352\\appium.log, C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_114352\\Home Song\\20200702_114352\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_114352\\Home Song\\20200702_114352\\1593665107779.png, C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_114352\\Home Song\\20200702_114352\\1593665108955.png"/>
+         <property name="hostName" value="WISDOMVAST - DESKTOP-LK4MLAB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.17.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.17.1"/>
+         <property name="deviceModel" value="SM-A507FN"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R58M93S563N"/>
+         <property name="deviceName" value="samsung SM-A507FN (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Home/Song Horizontal/Song horizontal" time="34.003" classname="Test Cases/Home/Song Horizontal/Song horizontal" status="PASSED">
+         <system-out><![CDATA[2020-07-02 11:44:07 - [TEST_CASE][PASSED] - Test Cases/Home/Song Horizontal/Song horizontal: Test Cases/Home/Song Horizontal/Song horizontal
+
+2020-07-02 11:44:08 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 11:44:09 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2020-07-02 11:44:12 - [MESSAGE][INFO] - Appium server started on port 50,574
+
+2020-07-02 11:44:28 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 11:44:28 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 11:44:30 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 11:44:30 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 11:44:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 11:44:33 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 11:44:35 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 11:44:35 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Song Horizontal/Khuen Tee Daw Layout"), 0): Tapped on element 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Layout'
+
+2020-07-02 11:44:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 11:44:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Layout'
+
+2020-07-02 11:44:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Home/Song Horizontal/Khuen Tee Daw Text"), "คืนที่ดาวเต็มฟ้า"): Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Text' are matched.
+
+2020-07-02 11:44:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Home/Song Horizontal/Khuen Tee Daw Text' are matched.
+
+2020-07-02 11:44:40 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 11:44:41 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Song Ranking/Song ranking" time="28.229" classname="Test Cases/Home/Song Ranking/Song ranking" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Home/Song Ranking/Song ranking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'เพื่อแม่แพ้บ่ได้ ' and expected text 'เพื่อแม่แพ้บ่ได้' of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Song ranking.run(Song ranking:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593665032518.run(TempTestSuite1593665032518.groovy:37)
+"/>
+         <system-out><![CDATA[2020-07-02 11:44:41 - [TEST_CASE][FAILED] - Test Cases/Home/Song Ranking/Song ranking: Test Cases/Home/Song Ranking/Song ranking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'เพื่อแม่แพ้บ่ได้ ' and expected text 'เพื่อแม่แพ้บ่ได้' of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Song ranking.run(Song ranking:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593665032518.run(TempTestSuite1593665032518.groovy:37)
+
+
+2020-07-02 11:44:42 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 11:44:42 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2020-07-02 11:44:45 - [MESSAGE][INFO] - Appium server started on port 50,765
+
+2020-07-02 11:44:57 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 11:44:57 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 11:44:59 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 11:44:59 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 11:45:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 11:45:02 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 11:45:03 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 11:45:03 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Song Ranking/For Mother Never Lost Layout"), 0): Tapped on element 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Layout'
+
+2020-07-02 11:45:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 11:45:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Layout'
+
+2020-07-02 11:45:07 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Karaoke/Home/Song Ranking/For Mother Never Lost Text"), "เพื่อแม่แพ้บ่ได้"): Verify element text of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'เพื่อแม่แพ้บ่ได้ ' and expected text 'เพื่อแม่แพ้บ่ได้' of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Song ranking.run(Song ranking:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593665032518.run(TempTestSuite1593665032518.groovy:37)
+)
+
+2020-07-02 11:45:08 - [MESSAGE][FAILED] - Actual text 'เพื่อแม่แพ้บ่ได้ ' and expected text 'เพื่อแม่แพ้บ่ได้' of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' are NOT matched.
+[[ATTACHMENT|C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_114352\\Home Song\\20200702_114352\\1593665107779.png]]
+
+2020-07-02 11:45:09 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'เพื่อแม่แพ้บ่ได้ ' and expected text 'เพื่อแม่แพ้บ่ได้' of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Song ranking.run(Song ranking:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593665032518.run(TempTestSuite1593665032518.groovy:37)
+)
+[[ATTACHMENT|C:\\Users\\WISDOMVAST\\Katalon Studio\\AIS_Karaoke\\Reports\\20200702_114352\\Home Song\\20200702_114352\\1593665108955.png]]]]></system-out>
+         <system-err><![CDATA[2020-07-02 11:44:41 - [TEST_CASE][FAILED] - Test Cases/Home/Song Ranking/Song ranking: Test Cases/Home/Song Ranking/Song ranking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'เพื่อแม่แพ้บ่ได้ ' and expected text 'เพื่อแม่แพ้บ่ได้' of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Song ranking.run(Song ranking:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593665032518.run(TempTestSuite1593665032518.groovy:37)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Event/Event" time="29.784" classname="Test Cases/Home/Event/Event" status="PASSED">
+         <system-out><![CDATA[2020-07-02 11:45:10 - [TEST_CASE][PASSED] - Test Cases/Home/Event/Event: Test Cases/Home/Event/Event
+
+2020-07-02 11:45:10 - [TEST_STEP][PASSED] - startApplication("C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk", false): Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 11:45:10 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2020-07-02 11:45:24 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WISDOMVAST\Katalon Studio\AIS_Karaoke\androidapp\karaoke_v2_stg_4.3.7_(60).apk'
+
+2020-07-02 11:45:24 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 11:45:25 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 11:45:25 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-07-02 11:45:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-02 11:45:28 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2020-07-02 11:45:29 - [MESSAGE][PASSED] - Press back button successfully
+
+2020-07-02 11:45:29 - [TEST_STEP][PASSED] - scrollToText("event", STOP_ON_FAILURE): Scrolling to text 'event' successfully
+
+2020-07-02 11:45:35 - [MESSAGE][PASSED] - Scrolling to text 'event' successfully
+
+2020-07-02 11:45:35 - [TEST_STEP][PASSED] - tap(findTestObject("Karaoke/Home/Event/Join Event button"), 0): Tapped on element 'Object Repository/Karaoke/Home/Event/Join Event button'
+
+2020-07-02 11:45:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-02 11:45:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Karaoke/Home/Event/Join Event button'
+
+2020-07-02 11:45:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Karaoke/Home/Event/Event TH Text"), "กิจกรรม"): Actual text and expected text of test object 'Object Repository/Karaoke/Home/Event/Event TH Text' are matched.
+
+2020-07-02 11:45:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Karaoke/Home/Event/Event TH Text' are matched.
+
+2020-07-02 11:45:39 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-07-02 11:45:39 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-02 11:44:07 - [TEST_SUITE][FAILED] - Home Song: Test Cases/Home/Song Ranking/Song ranking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'เพื่อแม่แพ้บ่ได้ ' and expected text 'เพื่อแม่แพ้บ่ได้' of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Song ranking.run(Song ranking:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593665032518.run(TempTestSuite1593665032518.groovy:37)]]></system-out>
+      <system-err><![CDATA[2020-07-02 11:44:07 - [TEST_SUITE][FAILED] - Home Song: Test Cases/Home/Song Ranking/Song ranking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'เพื่อแม่แพ้บ่ได้ ' and expected text 'เพื่อแม่แพ้บ่ได้' of test object 'Object Repository/Karaoke/Home/Song Ranking/For Mother Never Lost Text' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:1955)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Song ranking.run(Song ranking:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593665032518.run(TempTestSuite1593665032518.groovy:37)]]></system-err>
+   </testsuite>
+</testsuites>
