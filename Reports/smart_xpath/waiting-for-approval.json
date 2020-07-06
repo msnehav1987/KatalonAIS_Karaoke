@@ -1,3 +1,11 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": false,
+      "proposedXPath": "//span[@id\u003d\u0027u_0_z\u0027]/span[2]/input",
+      "testObjectId": "Object Repository/Test Web/Page_Facebook -/input__sex",
+      "brokenXPath": "//input[@id\u003d\u0027u_0_7\u0027]",
+      "pathToScreenshot": "C:/Users/WISDOMVAST/git/KatalonAIS_Karaoke/Reports/smart_xpath/Object Repository/Test Web/Page_Facebook -/input__sex_idRelative.png"
+    }
+  ]
 }
